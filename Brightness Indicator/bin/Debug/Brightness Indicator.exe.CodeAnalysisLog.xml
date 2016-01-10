@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="F:\GIT\Brightness Indicator\Brightness Indicator\bin\Debug\Brightness Indicator.exe">
+   <Modules>
+    <Module Name="brightness indicator.exe">
+     <Namespaces>
+      <Namespace Name="Brightness_Indicator">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="brush_background" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2015-12-05 10:36:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\GIT\Brightness Indicator\Brightness Indicator" File="Form1.Designer.cs" Line="15">'Form1' contains field 'Form1.brush_background' that is of IDisposable type: 'SolidBrush'. Change the Dispose method on 'Form1' to call Dispose or Close on this field.</Issue>
+            </Message>
+            <Message Id="brush_bar" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2015-12-05 10:36:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\GIT\Brightness Indicator\Brightness Indicator" File="Form1.Designer.cs" Line="15">'Form1' contains field 'Form1.brush_bar' that is of IDisposable type: 'SolidBrush'. Change the Dispose method on 'Form1' to call Dispose or Close on this field.</Issue>
+            </Message>
+            <Message Id="brush_bar_background" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2015-12-05 10:36:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\GIT\Brightness Indicator\Brightness Indicator" File="Form1.Designer.cs" Line="15">'Form1' contains field 'Form1.brush_bar_background' that is of IDisposable type: 'SolidBrush'. Change the Dispose method on 'Form1' to call Dispose or Close on this field.</Issue>
+            </Message>
+            <Message Id="brush_indicator" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2015-12-05 10:36:40Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="f:\GIT\Brightness Indicator\Brightness Indicator" File="Form1.Designer.cs" Line="15">'Form1' contains field 'Form1.brush_indicator' that is of IDisposable type: 'SolidBrush'. Change the Dispose method on 'Form1' to call Dispose or Close on this field.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Disposable fields should be disposed</Name>
+   <Description>If a type that implements IDisposable owns fields that also implement IDisposable, the encapsulating type's Dispose() implementation should call Dispose() on each disposable field.</Description>
+   <Resolution Name="Default">{0} contains field {1} that is of IDisposable type: {2}. Change the Dispose method on {0} to call Dispose or Close on this field.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
