@@ -70,11 +70,13 @@ Solution originally created with *Visual Studio 2013*:
 	- volume and brightness changes
 	- if they are no **memory leaks** (memory used should be no more than 40MB)
 	- one-instance only
+
 	- **Systems to test:**
 		- ~~Windows 7 64-bit~~
 		- Windows 7 32-bit
 		- Windows XP ... !
 			- *currently I checked on XP SP3, app installs and runs, but no effect on audio and brightness change whatsoever*
+			
 - **Check if source is able to build on different computer different VS ...** :exclamation:
 - How it behaves without having .NET Framework installed? *(try to install and run)*
 
