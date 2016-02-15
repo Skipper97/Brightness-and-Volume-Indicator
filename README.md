@@ -16,9 +16,9 @@ Solution originally created with *Visual Studio 2013*:
 - uses **NAudio** library *(included as NuGet package, should be installed automatically)*
 - `Setup` is currently a Windows Installer project. Don't change it unless you know what you're doing! **After building app project, remember to rebuild** `Setup`!
 
-###### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
+##### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
 
-> ###### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
+> ##### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
 
 wut wut
 
@@ -43,13 +43,9 @@ todo:
 
 ## Contribution
 
-Feel free to send any remarks, suggestions about features, requests, questions and bug reports. [Submit an issue](https://github.com/Marox44/Brightness-and-Volume-Indicator/issues)
+Feel free to send any remarks, suggestions about features, requests, questions and bug reports. ► [Submit an issue](https://github.com/Marox44/Brightness-and-Volume-Indicator/issues)
 
 You can also send any pull requests you want.
-
-#### Thanks for any involvement and contribution! :wink:
-
-##### Thanks for any involvement and contribution! :wink:
 
 ###### Thanks for any involvement and contribution! :wink:
 
