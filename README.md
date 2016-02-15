@@ -9,7 +9,8 @@ Simple and lightweight, C# made indicator bar for screen brightness and volume c
 ![screenshot1](http://i.imgur.com/vqde3Dj.png)
 ![screenshot1](http://i.imgur.com/NR3ITao.png)
 ![screenshot1](http://i.imgur.com/gtcY0a1.png)
-![screenshot1](http://i.imgur.com/9qgVpmn.png)
+
+![screenshot1](http://i.imgur.com/cQQNiPO.png)
 
 
 ## Download & Info
@@ -26,7 +27,9 @@ Solution originally created with *Visual Studio 2013*:
 - `packages/MaroxLib` is **necessary**.
 - uses **NAudio** library *(included as NuGet package, should be installed automatically)*
 - `Setup` is currently a Windows Installer project. Don't change it unless you know what you're doing! **After building app project, remember to rebuild** `Setup`!
----
+
+------
+
 *** `Build solution` might not work currently. If so, just build app project and `Setup` project separately. ***
 
 
