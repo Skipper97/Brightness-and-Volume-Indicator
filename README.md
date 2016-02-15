@@ -1,12 +1,23 @@
-# Brightness and Volume Indicator
+# Brightness and Volume Indicator for Windows 7
 
 [![Build Status](https://travis-ci.org/Marox44/Brightness-and-Volume-Indicator.svg?branch=master)](https://travis-ci.org/Marox44/Brightness-and-Volume-Indicator)
 
-Simple and lightweight, C# made indicator bar for screen brightness and volume change, similar to the one in Windows 8
+Simple and lightweight, C# made indicator bar for screen brightness and volume change, similar to the one in Windows 8.
 
-## Download
+###### Some screenshots:
+
+![screenshot1](http://i.imgur.com/vqde3Dj.png)
+![screenshot1](http://i.imgur.com/NR3ITao.png)
+![screenshot1](http://i.imgur.com/gtcY0a1.png)
+![screenshot1](http://i.imgur.com/9qgVpmn.png)
+
+
+## Download & Info
 
 Download the latest release here: https://github.com/Marox44/Brightness-and-Volume-Indicator/releases
+
+Currently designed for **Windows 7**
+
 
 ## Build
 
@@ -24,21 +35,48 @@ wut wut
 
 > `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
 
-todo:
 
-- autostart
-- check WinXp, Win7, Win8 ?
-- icons
-- installer
-	- license
-	- shortcuts ?
-	- autostart ?
-- config panel
-- program.cs mutex
-- bug: first form print ()
-- check in other vs!
-- correct assemblyinfo file
-- installer bitmap
+## The Great ToDo List
+
+- Make an icon(s)
+- Correct the `AssemblyInfo` file and information
+
+#### Bugs
+- On the first occurrence only, causes focus on the form
+
+#### Features
+- Currently window doesn't show up on maximum and minimum levels *(limitation of some kind; program is checking values periodically and shows when on of them changes)*
+
+- **Installer**
+	- Background bitmap image
+	- Show license or sth
+	- ~~Shortcut on desktop~~
+	- ~~Add to autostart~~
+- **Config Panel** - as program runs as a process *'in the background'*, a simple separated app config window is needed for things like:
+	- Update - check for and download ... !
+	- Thread check interval
+	- Autostart on/off
+	- Volume/brightness features on/off
+	- Change the colors :rainbow:
+	- Change the size and position?
+
+
+#### Tests & Checks
+- ##### General 'test' of app includes:
+	- correct install
+	- any shortcuts working fine?
+	- uninstall works?
+	- is app added to startup, does it auto-starts with Windows?
+	- volume and brightness changes
+	- if they are no **memory leaks** (memory used should be no more than 40MB)
+	- one-instance only
+	- ##### Systems to test:
+		- ~~Windows 7 64-bit~~
+		- Windows 7 32-bit
+		- Windows XP ... !
+			- *currently I checked on XP SP3, app installs and runs, but no effect on audio and brightness change whatsoever*
+- ##### Check if source is able to build on different computer different VS ... :exclamation:
+- How it behaves without having .NET Framework? *(try to install and run)*
 
 
 ## Contribution
