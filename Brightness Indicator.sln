@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness Indicator", "Brightness Indicator\Brightness Indicator.csproj", "{A1EE258D-3F62-4697-AD63-936391E6127D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C36DCE8-5028-4BC4-B8DB-6951C196438C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EE258D-3F62-4697-AD63-936391E6127D}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}.CD_ROM|Any CPU.ActiveCfg = Release
+		{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}.Debug|Any CPU.ActiveCfg = Debug
+		{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}.DVD-5|Any CPU.ActiveCfg = Debug
+		{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}.Release|Any CPU.ActiveCfg = Release
+		{2BDCB5DD-C1D5-45A3-90D3-58BDCEE3E89A}.SingleImage|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
