@@ -1,6 +1,8 @@
 # Brightness and Volume Indicator for Windows 7
 
 [![Build Status](https://travis-ci.org/Marox44/Brightness-and-Volume-Indicator.svg?branch=master)](https://travis-ci.org/Marox44/Brightness-and-Volume-Indicator)
+[![GitHub release](https://img.shields.io/github/release/Marox44/Brightness-and-Volume-Indicator.svg)](https://github.com/Marox44/Brightness-and-Volume-Indicator/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/Marox44/Brightness-and-Volume-Indicator/total.svg)](https://github.com/Marox44/Brightness-and-Volume-Indicator/releases)
 
 Simple and lightweight, C# made indicator bar for screen brightness and volume change, similar to the one in Windows 8.
 
@@ -15,7 +17,7 @@ Simple and lightweight, C# made indicator bar for screen brightness and volume c
 
 ## Download & Info
 
-Download the latest release here: https://github.com/Marox44/Brightness-and-Volume-Indicator/releases
+Download the latest release here: **https://github.com/Marox44/Brightness-and-Volume-Indicator/releases**
 
 Currently designed for **Windows 7**
 
