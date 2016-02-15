@@ -30,7 +30,7 @@ Solution originally created with *Visual Studio 2013*:
 
 ------
 
-*** `Build solution` might not work currently. If so, just build app project and `Setup` project separately. ***
+**_`Build solution` might not work currently. If so, just build app project and `Setup` project separately._**
 
 
 ## The Great ToDo List
@@ -60,7 +60,7 @@ Solution originally created with *Visual Studio 2013*:
 
 
 #### Tests & Checks
-- ** General 'test' of app includes: **
+- **General 'test' of app includes:**
 	- correct install
 	- any shortcuts working fine?
 	- uninstall works?
@@ -73,7 +73,7 @@ Solution originally created with *Visual Studio 2013*:
 		- Windows 7 32-bit
 		- Windows XP ... !
 			- *currently I checked on XP SP3, app installs and runs, but no effect on audio and brightness change whatsoever*
-- ** Check if source is able to build on different computer different VS ...** :exclamation:
+- **Check if source is able to build on different computer different VS ...** :exclamation:
 - How it behaves without having .NET Framework? *(try to install and run)*
 
 
@@ -101,4 +101,5 @@ You can also send any pull requests you want.
 
 ---
 
-> Marek Łamasz ([Marox44](https://github.com/Marox44)) | 2015
+
+> Marek Łamasz ([Marox44](https://github.com/Marox44)) | 2016
