@@ -351,7 +351,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Brightness and Volume Indicator"
         "ProductCode" = "8:{5779B91E-9DBA-4D87-9E2C-AD6AD6A6B27D}"
-        "PackageCode" = "8:{C9C4310D-5D29-4D55-938C-2408959047D0}"
+        "PackageCode" = "8:{63005C67-A654-49A4-92CD-DEFB2E9A746B}"
         "UpgradeCode" = "8:{63DB1FA4-E3CA-4920-8FA0-5DE011AD6045}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -723,7 +723,7 @@
                             "ContextData" = "8:1;True=1;False=0"
                             "Attributes" = "3:0"
                             "Setting" = "3:0"
-                            "Value" = "3:1"
+                            "Value" = "3:0"
                             "DefaultValue" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
