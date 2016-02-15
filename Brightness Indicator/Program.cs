@@ -9,7 +9,7 @@ namespace Brightness_Indicator
 {
     static class Program
     {
-        static Mutex mutex = new Mutex(true, "{8F6F0AC4-B9A1-66fd-A8CF-72698E6BDE8F}");
+        static Mutex mutex = new Mutex(true, "{brightness-indicator-mutex}");
         [STAThread]
         static void Main()
         {
@@ -22,7 +22,7 @@ namespace Brightness_Indicator
             }
             else
             {
-                
+                Marox.Alert.Error("Another instance is already running!");
             }
         }
     }

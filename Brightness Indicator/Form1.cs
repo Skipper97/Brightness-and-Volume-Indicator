@@ -135,7 +135,6 @@ namespace Brightness_Indicator
             this.label.ForeColor = Color.White;
             this.label.BackColor = brush_background.Color;
             this.label.Text = this.BRIGHTNESS.ToString();
-            //this.label.Text = Volume.GetMute().ToString();
 
             this.pictureBox1.BackColor = this.brush_background.Color;
             this.pictureBox1.Location = new Point((this.Size.Width / 2) - 13, this.Size.Height - 33);
@@ -148,25 +147,6 @@ namespace Brightness_Indicator
 
 
 
-            //System.Threading.Thread t2 = new System.Threading.Thread(new System.Threading.ParameterizedThreadStart((object o) =>
-            //{
-            //    System.Threading.Thread.Sleep(1000);
-            //    while (true)
-            //    {
-            //        if (global._HIDE == true)
-            //        {
-            //            System.Threading.Thread.Sleep(2000);
-            //            if (global._HIDE == true)
-            //                this.SafeInvoke(d => d.Hide());
-            //        }
-            //    }
-
-
-            //}));
-
-            //t2.IsBackground = true;
-            //t2.Start();
-            ////t2.Join();
 
             System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ParameterizedThreadStart((object o) =>
                 {
