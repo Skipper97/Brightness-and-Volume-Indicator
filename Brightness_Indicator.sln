@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness Indicator", "Brightness Indicator\Brightness Indicator.csproj", "{A1EE258D-3F62-4697-AD63-936391E6127D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightness_Indicator", "Brightness Indicator\Brightness_Indicator.csproj", "{A1EE258D-3F62-4697-AD63-936391E6127D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C36DCE8-5028-4BC4-B8DB-6951C196438C}"
 	ProjectSection(SolutionItems) = preProject
