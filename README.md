@@ -30,7 +30,7 @@ Solution originally created with *Visual Studio 2013*:
 
 ------
 
-**_`Build solution` might not work currently. If so, just build app project and `Setup` project separately._**
+***VS `Build solution` might not work currently. If so, just build app project and `Setup` project separately one by one.***
 
 
 ## The Great ToDo List
