@@ -7,12 +7,12 @@ todo:
 - autostart
 - check WinXp, Win7, Win8 ?
 - icons
-
 - installer
 	- license
 	- shortcuts ?
 	- autostart ?
-	-
 - config panel
 - program.cs mutex
-- bug
+- bug: first form print ()
+- check in other vs!
+- correct assemblyinfo file

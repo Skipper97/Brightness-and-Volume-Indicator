@@ -12,16 +12,17 @@ F:\GIT\Brightness Indicator\Brightness Indicator\obj\Release\Brightness Indicato
 F:\GIT\Brightness Indicator\Brightness Indicator\bin\Release\NAudio.dll
 F:\GIT\Brightness Indicator\Brightness Indicator\bin\Release\NAudio.xml
 F:\GIT\Brightness Indicator\Brightness Indicator\obj\Release\Brightness_Indicator.Resource1.resources
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness Indicator.exe.config
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness Indicator.exe
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness Indicator.pdb
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\MaroxLib CS.dll
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness and Volume Indicator.exe.config
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness and Volume Indicator.exe
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\Brightness and Volume Indicator.pdb
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\MaroxLib_CS.dll
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\NAudio.dll
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\MaroxLib CS.pdb
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\MaroxLib_CS.pdb
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\bin\Release\NAudio.xml
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness Indicator.csprojResolveAssemblyReference.cache
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness_Indicator.Form1.resources
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness_Indicator.Properties.Resources.resources
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness_Indicator.Resource1.resources
 F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness Indicator.csproj.GenerateResource.Cache
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness Indicator.exe
-F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness Indicator.pdb
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness and Volume Indicator.exe
+F:\GIT\Brightness-and-Volume-Indicator-For-Windows-7\Brightness Indicator\obj\Release\Brightness and Volume Indicator.pdb
