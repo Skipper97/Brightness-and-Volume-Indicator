@@ -17,7 +17,7 @@ Simple and lightweight, C# made indicator bar for screen brightness and volume c
 
 ## Download & Info
 
-Download the latest release here: **https://github.com/Marox44/Brightness-and-Volume-Indicator/releases**
+► Download the latest release here: **https://github.com/Marox44/Brightness-and-Volume-Indicator/releases**
 
 Currently designed for **Windows 7**
 
