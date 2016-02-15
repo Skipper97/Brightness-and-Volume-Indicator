@@ -43,7 +43,7 @@ Solution originally created with *Visual Studio 2013*:
 
 #### Features
 - Currently window doesn't show up on maximum and minimum levels *(limitation of some kind; program is checking values periodically and shows when one of them changes)*
-- **Installer**
+- **Installer:**
 	- Background bitmap image
 	- Show license or sth
 	- ~~Shortcut on desktop~~
