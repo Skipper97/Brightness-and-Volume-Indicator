@@ -20,3 +20,4 @@ todo:
 - bug: first form print ()
 - check in other vs!
 - correct assemblyinfo file
+- installer bitmap
