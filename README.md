@@ -27,7 +27,7 @@ Solution originally created with *Visual Studio 2013*:
 - uses **NAudio** library *(included as NuGet package, should be installed automatically)*
 - `Setup` is currently a Windows Installer project. Don't change it unless you know what you're doing! **After building app project, remember to rebuild** `Setup`!
 
-##### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
+###### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
 
 > ##### `Build solution` might not work currently. If so, just build app project and `Setup` project separately.
 
