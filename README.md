@@ -94,3 +94,8 @@ You can also send any pull requests you want.
 	- [http://naudio.codeplex.com/license](http://naudio.codeplex.com/license)
 	- [http://naudio.codeplex.com/](http://naudio.codeplex.com/)
 	- [https://www.nuget.org/packages/NAudio](https://www.nuget.org/packages/NAudio)
+
+
+---
+
+> Marek Łamasz ([Marox44](https://github.com/Marox44)) | 2015
